@@ -1,0 +1,7 @@
+--some values inserted in table (baþka file a)
+INSERT INTO i2i_train.subscribers (subscriber_id, first_name, last_name, birthdate, msisdn, address) VALUES (i2i_train.seq_subs_id.nextval, 'Ercan', 'Duman', to_date('06/09/1990', 'DD/MM/YYYY'), '905551230067', 'YTU Davutpaþa kampüsü Teknopark D2 Blok No Z08 Esenler ÝSTANBUL');
+INSERT INTO i2i_train.subscribers (subscriber_id, first_name, last_name, birthdate, msisdn, address) VALUES (i2i_train.seq_subs_id.nextval, 'Mennan', 'Tekbir', to_date('20/10/1982', 'DD/MM/YYYY'), '905551234117', 'YTU Davutpaþa kampüsü Teknopark D2 Blok No Z08 Esenler ÝSTANBUL');
+INSERT INTO i2i_train.subscribers (subscriber_id, first_name, last_name, birthdate, msisdn, address) VALUES (i2i_train.seq_subs_id.nextval, 'Serhat', 'Duman', to_date('28/09/1993', 'DD/MM/YYYY'), '905551231111', 'YTU Davutpaþa kampüsü Teknopark D2 Blok No Z08 Esenler ÝSTANBUL');
+INSERT INTO i2i_train.subscribers (subscriber_id, first_name, last_name, birthdate, msisdn, address) VALUES (i2i_train.seq_subs_id.nextval, 'Ýlyas', 'Oktay', to_date('29/10/1992', 'DD/MM/YYYY'), '905551234566', 'YTU Davutpaþa kampüsü Teknopark D2 Blok No Z08 Esenler ÝSTANBUL');
+INSERT INTO i2i_train.subscribers (subscriber_id, first_name, last_name, BIRTHDATE, MSISDN, ADDRESS) VALUES (i2i_train.seq_subs_id.nextval, 'Esra', 'Demir', to_date('28-09-1992', 'dd-mm-yyyy'), '905551230000', 'YTU Davutpaþa kampüsü Teknopark D2 Blok No Z08 Esenler ÝSTANBUL');
+commit;
